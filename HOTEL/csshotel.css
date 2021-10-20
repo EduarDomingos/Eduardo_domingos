@@ -1,0 +1,106 @@
+body,
+html{margin: 0;
+    padding: 0; 
+    font-size: 18;
+}
+body{
+	background:#ccc url(https://images.miamiandbeaches.com/crm/simpleview/image/upload/c_fit,w_1440,h_900/crm/miamifl/InterContinental-Miami3-1440x9000-f69b2fe55056a36_f69b3143-5056-a36a-0b6660fcabb0d707.jpg) center top no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+
+}
+a, a img{
+    text-decoration: none;
+    border: none;
+}
+img{max-width: 100%;
+height: auto;
+}
+
+.principal{width: 960px;
+           color: rgb(0, 0, 0);
+           margin: 0 auto;
+           font-family: sans-serif;
+}
+.cabecalho, 
+.logo, 
+.menu{
+	width:100%;
+	clear:both;
+}
+.cabecalho{
+	height:10px;
+
+}
+.logo-cabecalho{
+	float:center;
+}
+.logo-cabecalho a{
+	font-size:100px;
+	font-style:Baskerville Old Face Regular;
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+	display:block;
+	padding:20px 0 0 0;
+}
+.menu{
+	background:#ffffff;
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:rgb(0, 0, 0);
+	padding:13px 20px;
+}
+.rodape{
+  font-size:30px;
+  font-style:Baskerville Old Face Regular;
+  color:rgb(255, 255, 255);
+  background:#00000000;
+  padding:13px; 
+  width: 80%;
+  height: 30%;
+  top: 120%;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.contato{
+font-style:Baskerville Old Face Regular;
+background:#ff000000;
+left:2%;
+padding:13px;
+margin:auto;
+position: absolute;
+width: 25%;
+height: 25%;
+}
+.email{
+font-style:Baskerville Old Face Regular;
+background:#ff000000;
+left: 30%;
+padding:13px;
+margin:auto;
+position: absolute;
+width: 28%;
+height: 25%;
+}
+.local{
+font-style: Baskerville Old Face Regular;
+background:#ff000000;    
+right: 10%;
+padding:13px;
+margin:auto;
+position: absolute;
+width: 25%;
+height: 25%;   
+}
+
